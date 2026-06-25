@@ -12,13 +12,14 @@ This structure organizes files logically, putting the core course material in th
 ```text
 reactadvanced/
 ├── src/
-│   ├── assets/          # Static media assets, icons, and illustrations
-│   ├── lessons/         # 🌟 Core Day-by-Day Learning Modules
-│   │   ├── Day1.jsx     # State: React state & Counter Application
-│   │   ├── Day2.jsx     # Effects: APIs with Axios & Loading State
-│   │   ├── Day3.jsx     # Routing: Single-page navigation & layout
-│   │   ├── Day4.jsx     # useRef: DOM manipulation & reference memory
-│   │   └── Day4v2.jsx   # useRef vs useState performance comparison
+│   ├── lessons/
+│   │   ├── Day1.jsx     # State: Counter App
+│   │   ├── Day2.jsx     # Effects: Axios & Loading States
+│   │   ├── Day3.jsx     # Routing: React Router v7
+│   │   ├── Day4.jsx     # useRef: DOM Manipulation
+│   │   ├── Day5.jsx     # useContext: Global State Management
+│   │   ├── Day6.jsx     # useRef Advanced: Persistent Timers
+│   │   └── Day7.jsx     # useMemo: Performance Optimization
 │   ├── Pages/           # Route components (Home.jsx, About.jsx)
 │   ├── shared/          # Shared layout components (Navbar.jsx)
 │   │   └── Navbar.jsx   # Global Navigation Bar component
