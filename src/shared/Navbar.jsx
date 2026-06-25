@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
@@ -20,10 +21,13 @@ const Navbar = () => {
               <Link to="/day4"> Day4</Link>
             </li>
             <li>
-              <Link to="/day4v2">Project</Link>
+              <Link to="/day4v2">Day 5</Link>
             </li>
             <li>
-              <Link to="/usecontext">UseContext</Link>
+              <Link to="/usecontext">Day 6</Link>
+            </li>
+            <li>
+              <Link to="/day7">Day7</Link>
             </li>
           </ul>
         </nav>

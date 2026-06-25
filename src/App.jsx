@@ -6,10 +6,11 @@ import Counter from "./lessons/Day1";
 import Day2 from "./lessons/Day2";
 import Day3 from "./lessons/Day3";
 import Day4 from "./lessons/Day4";
-import { Routes, Route } from "react-router-dom";
+import Day4v2 from "./lessons/Day4v2";
+import Day7 from "./lessons/Day7";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Day4v2 from "./lessons/Day4v2";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./shared/Navbar";
 import UseContext from "./components/UseContext";
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
         ></Route>
 
         <Route path="/usecontext" element={<UseContext />}></Route>
+        <Route path="/day7" element={<Day7 />}></Route>
       </Routes>
     </>
   );
